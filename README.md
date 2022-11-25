@@ -1,6 +1,6 @@
 # 5ocean
 # Install
-1)Clone this repo.
+1)Clone this repo.\n
 2)In project folder run python -m venv venv command. This will create virtual environment with local clean python installation.
 3)Activate created virtual environment using venv\Scripts\activate command on Windows or source ./venv/Scripts/activate on Linux or MacOS.
 4)Run pip install -r requirements.txt command to install all necessary dependencies.
