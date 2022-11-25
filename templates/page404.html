@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ super() }}
+<a href="https://myrusakov.ru" target="_blank"><img src="https://myrusakov.ru/images/button.gif" style="border: 0; height: 31px; width: 88px;" alt="Как создать свой сайт" /></a>
+<p> Страница не найдена, Вернуться на <a href="{{ url_for ('index')}}">главную</a></p>
+{% endblock %}
